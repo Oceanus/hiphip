@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-FrbcApp::Application.load_tasks
+Hiphip::Application.load_tasks
