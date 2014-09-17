@@ -24,7 +24,7 @@ def secure_token
   end
 end
 
-SampleApp::Application.config.secret_key_base = secure_token
+Hiphip::Application.config.secret_key_base = secure_token
 
 
 # Be sure to restart your server when you modify this file.
